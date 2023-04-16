@@ -16,7 +16,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="top-right">
-                    <h4>Get Fitness Tips for Free</h4>
+                    <h4>GET FITNESS TIPS FOR FREE</h4>
                     <h5>Enter your email to get free weekly fitness tips</h5>
                     <form class='input' action="/action_page.php">
                         <input type="text" id="email" name="email" placeholder="Enter your email..." />
