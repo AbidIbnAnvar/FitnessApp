@@ -1,6 +1,7 @@
 
 .about-main{
     margin-top: 92px;
+    overflow: hidden;
 }
 
 
@@ -27,7 +28,7 @@
     transform: translate(-50%, -50%);
     background-color: transparent;
     border-radius: 25px;
-    width: 95%;
+    width: 89%;
     height: auto;
     padding-top:40px;
     padding-left: 70px;
@@ -52,5 +53,40 @@
     border-bottom: 3px solid red;
 }
 
+.about-textblock p{
+    font-family: 'Work Sans';
+    font-size: 25px;
+    text-align: left;
+    padding-inline: 3%;
+}
+
+.about-textblock ol{
+    text-align: left;
+    font-size: 22px;
+    color:rgb(200, 200, 200);
+    
+}
 
 
+@media screen and (800px<width<1000px) {
+    .about-image1{
+        display: none;
+    }
+    .about-textblock{
+        background-image:none;
+        top: 900px;
+        margin-bottom: 200px;
+    }
+    
+}
+
+@media screen and (width<800px) {
+    .about-image1{
+        display: none;
+    }
+    .about-textblock{
+        background-image:none;
+        top: 1100px;
+        margin-bottom: 200px;
+    }
+}
