@@ -166,6 +166,20 @@
      letter-spacing: 4px;
  }
  
+.box-contents{
+    padding-block: 10px;
+    margin: 0;
+    margin-left: -10%;
+}
+
+.box-contents li{
+    font-family: 'Poppins';
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-block: 10px;
+    list-style: none;
+}
+ 
  
  
  

@@ -3,7 +3,7 @@
 
 
 .pricing-main{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left:0px;
     margin-right: 0px;
     overflow: hidden;
@@ -82,6 +82,39 @@
     font-family: 'Poppins';
     letter-spacing: 4px;
 }
+
+.box-contents{
+    padding-block: 20px;
+    margin: 0;
+    margin-left: -10%;
+}
+
+.box-contents li{
+    font-family: 'Poppins';
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-block: 10px;
+    list-style: none;
+}
+.not-available{
+    text-decoration:line-through red 4px;
+}
+
+.best-value{ font-size: 18px;
+    background-color: red;
+    padding-block: 2px;
+    padding-inline: 10px;
+    margin-top: -13px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 600;
+    border: 2px red solid;
+    border-radius: 0px 0px 16px 16px; 
+}
+
 
 
 
